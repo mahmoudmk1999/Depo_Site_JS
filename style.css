@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: #222;
+    color: rgb(209, 195, 160);
+    font-family: 'Quicksand';font-size: 20px;
+}
+
+.crud{
+    width: 85%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 15px;
+    border-radius: 6px;
+    padding: 4px;
+    color: #fff;
+}
+
+input:focus{
+
+    background: #000;
+    transform: scale(1.05);
+    transition: transform 330ms ease-in-out;
+
+}
+
+
+.price input{
+    width: 18%;
+    text-align:center
+}
+
+#total{
+    background: rgb(118, 32, 32);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+#total::before{
+    content: "Total : " ;
+    
+}
+
+button{
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background: rgb(52, 46, 91);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-family: 'Quicksand';font-size: 15px;
+}
+
+
+
+button:hover{
+    background-color: rgb(159, 124, 37);
+    letter-spacing: 0.5px;
+}
+
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#deleteall{
+
+    margin: 40px 0px;
+
+}
+
+.btnsearch button{
+    width: 45%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    background-color: rgb(46, 44, 55);
+    border-radius: 4px;
+
+}
+
+tr:hover {background-color: rgb(50, 48, 43);}
+
+table th{
+    text-transform: uppercase;
+    background: rgb(46, 40, 70);
+    
+}
+
+th,td{
+    padding: 5px;
+}
+
+#deleteAll{
+    margin: 50px;
+}
+
+#update,#delete{
+    margin: 6px;
+}
+
